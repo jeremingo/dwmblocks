@@ -17,8 +17,9 @@
 #define TRAILING_DELIMITER 0
 
 // Define blocks for the status feed as X(cmd, interval, signal).
-#define BLOCKS(X)         \
-    X("sb-git", 300, 0)  \
+#define BLOCKS(X) \
+    X("sb-git", 300, 0) \
+    X("sb-battery", 60, 0) \
     X("sb-date", 1, 0)
 
 #endif  // CONFIG_H
