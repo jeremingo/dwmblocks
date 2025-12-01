@@ -19,6 +19,7 @@
 // Define blocks for the status feed as X(cmd, interval, signal).
 #define BLOCKS(X) \
     X("sb-git", 300, 0) \
+    X("sb-wifi", 60, 1) \
     X("sb-battery", 60, 0) \
     X("sb-date", 1, 0)
 
