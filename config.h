@@ -8,7 +8,7 @@
 #define MAX_BLOCK_OUTPUT_LENGTH 45
 
 // Control whether blocks are clickable.
-#define CLICKABLE_BLOCKS 1
+#define CLICKABLE_BLOCKS 0
 
 // Control whether a leading delimiter should be prepended to the status.
 #define LEADING_DELIMITER 1
@@ -20,7 +20,7 @@
 #define BLOCKS(X) \
     X("sb-git", 300, 0) \
     X("sb-wifi", 60, 1) \
-    X("sb-battery", 60, 0) \
+    X("sb-battery", 5, 0) \
     X("sb-date", 1, 0)
 
 #endif  // CONFIG_H
